@@ -1,6 +1,6 @@
 # Types of Plots
 Here's the list of various types of pandas and MATLAB plots in markdown format with details, parameters, and examples:
----
+
 
 ## Pandas Plots
 
