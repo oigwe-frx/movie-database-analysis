@@ -1,8 +1,6 @@
 # Types of Plots
-
-## Pandas Plots:
-
-Sure, here's the list of various types of pandas and MATLAB plots in markdown format with details, parameters, and examples:
+Here's the list of various types of pandas and MATLAB plots in markdown format with details, parameters, and examples:
+---
 
 ## Pandas Plots
 
@@ -130,8 +128,7 @@ df.plot(x='x', y=['A', 'B'], kind='area')
 plt.show()
 ```
 
-Certainly! Here's the list of various types of MATLAB plots in markdown format with details, parameters, and examples:
-
+---
 ## MATLAB Plots
 
 ### Line Plot
@@ -253,5 +250,3 @@ ylabel('Y-axis')
 title('Area Plot Example')
 grid on
 ```
-
-These examples should help you understand how to use various MATLAB plot types with their respective parameters in markdown format.
