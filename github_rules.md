@@ -1,4 +1,4 @@
-# GitHub Rules of Engagement
+6# GitHub Rules of Engagement
 
 ## **Cloning a GitHub Repository:**
 
@@ -96,7 +96,7 @@ Certainly! Here are the steps for adding, committing, and pushing changes to a b
 
 Your changes are now updated in the remote branch on GitHub. Keep in mind that other collaborators can also see and work with these changes if they have access to the same repository and branch.
 
-## **Opening a PR: **
+## **Opening a PR:**
 Opening a Pull Request (PR) in a Git repository, particularly on platforms like GitHub, is a common way to propose changes to a codebase. Here are the rules and best practices for opening a PR:
 
 1. Push Your Branch:
