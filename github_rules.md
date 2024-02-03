@@ -53,8 +53,6 @@
 4. You can now start making changes to the code within your new branch. Once you're ready, commit your changes using `git commit` and push them to the remote repository using `git push`. Your new branch will be created on GitHub when you push the changes.
 
 
-Certainly! Here are the steps for adding, committing, and pushing changes to a branch in a GitHub repository:
-
 ## **Adding Changes:**
 
 1. Open your terminal or command prompt.
