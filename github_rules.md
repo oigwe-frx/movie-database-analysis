@@ -1,4 +1,4 @@
-6# GitHub Rules of Engagement
+# GitHub Rules of Engagement
 
 ## **Cloning a GitHub Repository:**
 
