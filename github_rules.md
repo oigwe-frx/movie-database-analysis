@@ -95,3 +95,32 @@ Certainly! Here are the steps for adding, committing, and pushing changes to a b
 8. Once the push is complete, your changes will be pushed to the remote branch on GitHub.
 
 Your changes are now updated in the remote branch on GitHub. Keep in mind that other collaborators can also see and work with these changes if they have access to the same repository and branch.
+
+## **Opening a PR: **
+Opening a Pull Request (PR) in a Git repository, particularly on platforms like GitHub, is a common way to propose changes to a codebase. Here are the rules and best practices for opening a PR:
+
+1. Push Your Branch:
+
+Push your branch with the changes to your forked repository on GitHub using the git push command.
+
+2. Create the Pull Request:
+
+Visit the original repository on GitHub and click on the "New Pull Request" button.
+Select the base branch (usually the main or development branch) and the branch with your changes as the compare branch.
+Provide a clear and descriptive title and description for your PR. Explain what the changes do and why they are necessary.
+
+3. Review and Collaboration:
+
+Collaborate with other contributors, if applicable. Respond to feedback and make necessary changes to your code.
+Ensure that your code passes any required tests or code reviews.
+
+4. Keep Your PR Updated:
+- If the base branch changes while your PR is open, update your PR branch and resolve any conflicts if necessary.
+
+5. Be Patient and Responsive:
+- Be patient while waiting for reviewers to provide feedback. Respond promptly to comments and maintain good communication with the reviewers.
+
+6. PR Approval and Merge:
+- Once your PR has received approval from maintainers or reviewers, it can be merged into the main or development branch. In some projects, maintainers will handle the merging process.
+
+Following these rules and best practices will help ensure a smooth and effective contribution process when opening a Pull Request in a Git repository.
