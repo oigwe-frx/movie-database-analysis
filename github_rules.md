@@ -1,4 +1,4 @@
-# Github
+# GitHub Rules of Engagement
 
 ## **Cloning a GitHub Repository:**
 
@@ -52,3 +52,46 @@
 
 4. You can now start making changes to the code within your new branch. Once you're ready, commit your changes using `git commit` and push them to the remote repository using `git push`. Your new branch will be created on GitHub when you push the changes.
 
+
+Certainly! Here are the steps for adding, committing, and pushing changes to a branch in a GitHub repository:
+
+## **Adding Changes:**
+
+1. Open your terminal or command prompt.
+2. Navigate to the local directory of your Git repository, where you have made changes.
+
+3. Use the `git status` command to see the changes you've made. This will show you a list of modified, untracked, and staged files.
+
+4. To stage the changes you want to commit, use the `git add` command followed by the filenames or directories:
+
+   ```
+   git add <file1> <file2> ...
+   ```
+
+   Alternatively, you can use `git add .` to stage all changes in the current directory.
+
+**Committing Changes:**
+
+5. Once you've staged your changes, commit them with a descriptive commit message:
+
+   ```
+   git commit -m "Your commit message here"
+   ```
+
+   Replace `"Your commit message here"` with a meaningful message that describes the purpose of your commit.
+
+**Pushing the Branch:**
+
+6. After committing your changes locally, you can push your branch to the remote GitHub repository. Use the following command:
+
+   ```
+   git push origin <branch_name>
+   ```
+
+   Replace `<branch_name>` with the name of the branch you want to push. If you've created a new branch, this will typically be the same name as the branch you created earlier.
+
+7. Git will prompt you for your GitHub credentials if you haven't already authenticated.
+
+8. Once the push is complete, your changes will be pushed to the remote branch on GitHub.
+
+Your changes are now updated in the remote branch on GitHub. Keep in mind that other collaborators can also see and work with these changes if they have access to the same repository and branch.
