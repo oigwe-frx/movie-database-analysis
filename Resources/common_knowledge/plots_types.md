@@ -8,8 +8,8 @@ Method: DataFrame.plot()
 Best Used For: Univariate (single variable) or multivariate (multiple variables) data to visualize trends and changes over time.
 
 Parameters:
-x (optional): x-axis data (usually a column name or index).
-y (optional): y-axis data (usually a column name or index).
+- x (optional): x-axis data (usually a column name or index).
+- y (optional): y-axis data (usually a column name or index).
 
 Example:
 ```
@@ -28,8 +28,8 @@ Method: DataFrame.plot(kind='bar')
 Best Used For: Univariate data for comparing discrete categories or displaying frequency counts.
 
 Parameters:
-x (optional): x-axis data (usually a categorical column).
-y (optional): y-axis data (usually a numerical column).
+- x (optional): x-axis data (usually a categorical column).
+- y (optional): y-axis data (usually a numerical column).
 
 ```
   import pandas as pd
@@ -45,6 +45,20 @@ y (optional): y-axis data (usually a numerical column).
 
 Method: DataFrame.plot(kind='hist')
 Best Used For: Univariate data to display the distribution of a single continuous variable.
+
+Parameters:
+- x (optional): x-axis data (usually a numerical column).
+- bins (optional): Number of bins for the histogram.
+
+```
+  import pandas as pd
+  import matplotlib.pyplot as plt
+  
+  data = {'Values': [10, 14, 8, 18, 12, 16, 20, 22, 24, 28]}
+  df = pd.DataFrame(data)
+  df.plot(y='Values', kind='hist', bins=5)
+  plt.show()
+```
 
 ### Box Plot
 
