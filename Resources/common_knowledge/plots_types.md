@@ -46,6 +46,20 @@ y (optional): y-axis data (usually a numerical column).
 Method: DataFrame.plot(kind='hist')
 Best Used For: Univariate data to display the distribution of a single continuous variable.
 
+Parameters:
+- x (optional): x-axis data (usually a numerical column).
+- bins (optional): Number of bins for the histogram.
+
+```
+  import pandas as pd
+  import matplotlib.pyplot as plt
+
+  data = {'Values': [10, 14, 8, 18, 12, 16, 20, 22, 24, 28]}
+  df = pd.DataFrame(data)
+  df.plot(y='Values', kind='hist', bins=5)
+  plt.show()
+```
+
 ### Box Plot
 
 Method: DataFrame.plot(kind='box')
