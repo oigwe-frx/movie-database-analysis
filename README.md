@@ -1,6 +1,6 @@
-# Project: Movie Database Analysis
-
+--------------------
 ## **Context**
+--------------------
 
 In an era marked by the convergence of technology and entertainment, the film industry is a pillar of global cultural dissemination and economic vitality. Understanding the intricate factors influencing a movie's commercial success is paramount within this dynamic landscape. Leveraging data from the Internet Movie Database (IMDb), this project aims to delve into the multifaceted realm of box office hits, dissecting the variables that potentially shape their triumph or demise.
 
@@ -10,11 +10,15 @@ As the digital era reshapes audience preferences and consumption patterns, tradi
 
 By scrutinizing the data with a meticulous eye and employing sophisticated analytical methodologies, this project endeavors to offer insights that transcend conventional wisdom, providing stakeholders within the film industry with actionable intelligence to navigate an ever-evolving landscape and maximize their chances of crafting cinematic endeavors that resonate with audiences and thrive at the box office.
 
+------------------
 ## **Objective**
+------------------
 
 This data analysis and visualization project aims to investigate and identify critical attributes influencing the commercial success of movies. Leveraging data sourced from IMDb, the project aims to uncover patterns and correlations between various factors and a movie's box office performance. Through meticulous analysis and visualization techniques, the project seeks to provide actionable insights to stakeholders in the film industry, enabling them to make informed decisions to enhance the financial viability of their cinematic endeavors.
 
+-----------------------------
 ## **General Key Questions**
+-----------------------------
 
 - What is the dataset source for the visualization project, and how reliable and comprehensive is it?
 
@@ -32,12 +36,11 @@ This data analysis and visualization project aims to investigate and identify cr
 
 - How can user feedback and iterative design processes be integrated to improve the effectiveness of the visualizations continuously?
 
-
+-----------------------------
 ## **Data Specific Key Questions**
-
-
-* What are the most popular movies?
-    * Determine the top-rated or most popular titles based on IMDb ratings or user reviews.
+-----------------------------
+*   What are the most popular movies?
+  *   Determine the top-rated or most popular titles based on IMDb ratings or user reviews.
       
 * What are the trends in movie genres over time?
     * Analyze how the popularity of different genres has evolved over the years.
@@ -72,8 +75,25 @@ This data analysis and visualization project aims to investigate and identify cr
 * Are there any outliers or anomalies in the data?
     * Look for unusual or unexpected patterns in the data that may require further investigation.
 
-
+------------------------------------
 ## **Dataset Description**
+------------------------------------
 
+### Data Description
 
-...
+The data contains data related to films, as compiled by the Internet Movie Database (IMDb). The detailed data dictionary is given below.
+
+### Data Dictionary
+
+* names: movie name
+* date_x: release date
+* score: user rating
+* genre: genre of the movie
+* overview: a summary of the movie's plot
+* crew: crew members
+* orig_title: the original title of the movie
+* status: release status
+* orig_lang: originally released in this language
+* budget_x: movie budget
+* revenue: revenue generated worldwide
+* country: release country
